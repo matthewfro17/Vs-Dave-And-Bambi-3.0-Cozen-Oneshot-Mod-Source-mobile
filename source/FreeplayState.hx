@@ -321,8 +321,7 @@ class FreeplayState extends MusicBeatState
 		{
 			case 'joke':
 			    addWeek(['Unfairness'], 15, ['bambi-unfair']);
-			if (FlxG.save.data.cozenFound)
-				addWeek(['Cozen'], 15, ['bambi-unfair']);
+			    addWeek(['Cozen'], 15, ['bambi-unfair']);
 		}
 	}
 
